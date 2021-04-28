@@ -10,3 +10,18 @@ body {
   background:rgb(0, 0, 0); 
   color:#049e9e;
 } 
+
+.birthday-box {
+  padding: 10px;
+  width: 640px;
+  font-size: 18px;
+  margin-left: 320px; 
+}
+
+#discoverBtn {
+	margin-left: 8px;
+	border-radius: 2px;
+	cursor: pointer;
+	height: 32px;
+	width: 128px;
+}
