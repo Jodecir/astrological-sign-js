@@ -32,7 +32,7 @@ label {
 }
 
 input {
-	background-color: #181a1b;
+	background: #181a1b;
 	color: #ffffff;
 	width: 40px;
 }
@@ -66,15 +66,15 @@ footer {
 }
 
 .social{
+	background: #049e9e;
+  color: rgb(0, 0, 0); 
 	text-align: center;
 	padding-top: 12px;
 	padding-bottom: 15px;
-	background: #049e9e;
-  color: rgb(0, 0, 0); 
 }
 
 .fa{
-	background-color: white;
+	background: white;
 	color: #d0d0d0;
 	border-radius: 50%;
 	padding: 8px;
