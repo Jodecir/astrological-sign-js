@@ -77,7 +77,3 @@ function discover(){
       opacitySwitcher()
   }
 }
-
-function opacitySwitcher(img) {
-    img.style.opacity = "1";
-}
