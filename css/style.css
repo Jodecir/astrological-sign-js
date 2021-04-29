@@ -25,3 +25,19 @@ body {
 	height: 32px;
 	width: 128px;
 }
+
+.results { 
+  font-size: 26px;
+  text-align: center; 
+}
+
+#sign-name { 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#sign-image { 
+	opacity: 0;
+  height: 500px; 
+  width: 500px; 
+}
