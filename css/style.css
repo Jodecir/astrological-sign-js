@@ -6,19 +6,40 @@
 	font: inherit;
 }
 
+html {
+	height: 100%;
+}
+
 body {
-  background:rgb(0, 0, 0); 
-  color:#049e9e;
+  background: #000000; 
+  color: #5ffbfb;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	height: 100%;
 } 
 
 .birthday-box {
   padding: 10px;
   width: 640px;
   font-size: 18px;
-  margin-left: 335px; 
+  margin-left: 455px; 
+}
+
+label {
+  margin-left: 8px; 
+}
+
+input {
+	background-color: #181a1b;
+	color: #ffffff;
+	width: 40px;
 }
 
 #discoverBtn {
+	background: #181a1b;
+	color: #ffffff;
 	margin-left: 8px;
 	border-radius: 2px;
 	cursor: pointer;
@@ -37,6 +58,36 @@ body {
 }
 
 #sign-image { 
-  height: 500px; 
-  width: 500px; 
+  height: 500px;
+}
+
+footer {
+	padding-top: 36px;
+}
+
+.social{
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	background: #049e9e;
+  color: rgb(0, 0, 0); 
+}
+
+.fa{
+	background-color: white;
+	color: #d0d0d0;
+	border-radius: 50%;
+	padding: 8px;
+	height: 15px;
+	width: 15px;
+	margin-right: 16px;
+	transition:color 0.1s;
+}
+
+.fa-linkedin:hover{
+ color: #2b55ff;
+}
+
+.fa-github:hover{
+	color: #000000;
 }
