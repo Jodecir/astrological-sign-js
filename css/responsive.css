@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+	.birthday-box {
+		margin-left: 155px; 
+	}
+}
+
+@media (max-width: 650px) {
+	footer {
+		display: none;
+	}
+
+	.birthday-box {
+		margin-left: 35px; 
+	}
+
+	#sign-image {
+		height: 90%;
+		width: 85%;
+	}
+}
