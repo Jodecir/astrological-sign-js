@@ -22,9 +22,9 @@ body {
 
 .birthday-box {
   padding: 10px;
-  width: 640px;
+  width: 400px;
   font-size: 18px;
-  margin-left: 455px; 
+  margin-left: 385px; 
 }
 
 label {
@@ -62,24 +62,38 @@ input {
 }
 
 footer {
-	padding-top: 36px;
+	font-size: 16pt;
+  background: black;
+  color: white;
+  text-align: center;
 }
 
 .social {
 	background: #049e9e;
-  color: rgb(0, 0, 0); 
-	text-align: center;
+  color: black;
 	padding-top: 12px;
 	padding-bottom: 12px;
+	margin-top: 12px;
+}
+
+footer i {
+  padding: 8px;
+}
+
+footer i:hover {
+	transition: 0.75s;
+	background: #d0d0d0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .fab {
 	background: white;
 	color: #d0d0d0;
 	border-radius: 50%;
-	padding: 8px;
-	height: 15px;
-	width: 15px;
 	margin-right: 16px;
 	transition:color 0.1s;
 }
