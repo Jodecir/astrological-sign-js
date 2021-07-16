@@ -1,3 +1,11 @@
+:root {
+  --azul:#5ffbfb;
+	--azulEscuro: #049e9e;
+  --preto:#181a1b;
+  --branco: #ffffff;
+  --cinza: #d0d0d0;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -11,8 +19,8 @@ html {
 }
 
 body {
-  background: #000000; 
-  color: #5ffbfb;
+  background: var(--preto);
+  color: var(--azul);
 	display: flex;
 	display: -webkit-flex;
 	flex-direction: column;
@@ -32,14 +40,14 @@ label {
 }
 
 input {
-	background: #181a1b;
-	color: #ffffff;
+	background: var(--preto);
+	color: var(--branco);
 	width: 40px;
 }
 
 #discoverBtn {
-	background: #181a1b;
-	color: #ffffff;
+	background: var(--preto);
+	color: var(--preto);
 	margin-left: 8px;
 	border-radius: 2px;
 	cursor: pointer;
@@ -63,14 +71,14 @@ input {
 
 footer {
 	font-size: 16pt;
-  background: black;
-  color: white;
+  background: var(--preto);
+  color: var(--branco);
   text-align: center;
 }
 
 .social {
-	background: #049e9e;
-  color: black;
+	background: var(--azulEscuro);
+  color: var(--preto);
 	padding-top: 12px;
 	padding-bottom: 12px;
 	margin-top: 12px;
@@ -82,17 +90,17 @@ footer i {
 
 footer i:hover {
 	transition: 0.75s;
-	background: #d0d0d0;
+	background: var(--cinza);
 }
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: var(--branco);
 }
 
 .fab {
-	background: white;
-	color: #d0d0d0;
+	background: var(--branco);
+	color: var(--cinza);
 	border-radius: 50%;
 	margin-right: 16px;
 	transition:color 0.1s;
