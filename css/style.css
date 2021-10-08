@@ -47,7 +47,7 @@ input {
 
 #discoverBtn {
 	background: var(--preto);
-	color: var(--preto);
+	color: var(--branco);
 	margin-left: 8px;
 	border-radius: 2px;
 	cursor: pointer;
