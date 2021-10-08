@@ -61,6 +61,11 @@ input:hover {
 	width: 128px;
 }
 
+#discoverBtn:hover {
+	color: var(--azul);
+  border: 2px solid var(--branco);
+}
+
 .results { 
   font-size: 26px;
   text-align: center; 
