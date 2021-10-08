@@ -42,7 +42,13 @@ label {
 input {
 	background: var(--preto);
 	color: var(--branco);
+  border-left: 2px solid var(--azul);
 	width: 40px;
+	text-align: center;
+}
+
+input:hover {
+  border-left: 2px solid var(--branco);
 }
 
 #discoverBtn {
